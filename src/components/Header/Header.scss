@@ -1,0 +1,38 @@
+.header {
+	height: 72px;
+	background: #0064eb;
+	display: flex;
+	align-items: center;
+	padding: 16px 41px;
+
+	&__logo {
+		fill: #fff;
+	}
+
+	&-field {
+		display: flex;
+		align-items: center;
+		position: relative;
+		width: 500px;
+		margin-left: 22px;
+
+		&__input {
+			width: 100%;
+			padding: 13px 44px;
+			outline: none;
+			border: none;
+			background: #ffffff;
+			border-radius: 6px;
+			font-size: 14px;
+		}
+
+		&__icon {
+			fill: #808080;
+			position: absolute;
+			top: 50%;
+			left: 19px;
+			transform: translateY(-50%);
+			pointer-events: none;
+		}
+	}
+}
